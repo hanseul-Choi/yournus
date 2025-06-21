@@ -20,3 +20,4 @@ dependencyResolutionManagement {
 rootProject.name = "Yournus"
 
 include(":app")
+include(":core:model")
