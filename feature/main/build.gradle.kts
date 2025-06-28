@@ -11,6 +11,8 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.designsystem)
+
     implementation(projects.core.dataApi)
 
     implementation(libs.androidx.core.ktx)

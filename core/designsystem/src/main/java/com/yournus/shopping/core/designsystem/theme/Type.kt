@@ -1,4 +1,4 @@
-package com.droidknights.app.core.designsystem.theme
+package com.yournus.shopping.core.designsystem.theme
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
@@ -12,7 +12,7 @@ private val SansSerifStyle = TextStyle(
     fontWeight = FontWeight.Normal,
 )
 
-internal val Typography = KnightsTypography(
+internal val Typography = YournusTypography(
     displayLargeR = SansSerifStyle.copy(
         fontSize = 57.sp,
         lineHeight = 64.sp,
@@ -161,7 +161,7 @@ internal val Typography = KnightsTypography(
 )
 
 @Immutable
-data class KnightsTypography(
+data class YournusTypography(
     val displayLargeR: TextStyle,
     val displayMediumR: TextStyle,
     val displaySmallR: TextStyle,
@@ -199,7 +199,7 @@ data class KnightsTypography(
 )
 
 val LocalTypography = staticCompositionLocalOf {
-    KnightsTypography(
+    YournusTypography(
         labelSmallM = SansSerifStyle,
         displayLargeR = SansSerifStyle,
         displayMediumR = SansSerifStyle,

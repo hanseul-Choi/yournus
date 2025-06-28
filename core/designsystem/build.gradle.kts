@@ -10,5 +10,5 @@ android {
 }
 
 dependencies {
-//    implementation()
+    implementation(libs.androidx.appcompat)
 }

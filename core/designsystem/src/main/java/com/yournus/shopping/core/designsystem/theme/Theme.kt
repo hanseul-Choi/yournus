@@ -1,4 +1,4 @@
-package com.droidknights.app.core.designsystem.theme
+package com.yournus.shopping.core.designsystem.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -12,7 +12,6 @@ import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
-import com.yournus.shopping.core.designsystem.theme.YournusColor
 
 private val DarkColorScheme = darkColorScheme(
     primary = YournusColor.White,
@@ -111,7 +110,7 @@ fun KnightsTheme(
 }
 
 object YournusTheme {
-    val typography: KnightsTypography
+    val typography: YournusTypography
         @Composable
         get() = LocalTypography.current
 }
