@@ -21,5 +21,10 @@ gradlePlugin {
             id = "yournus.kotlin.hilt"
             implementationClass = "com.yournus.shopping.HiltKotlinPlugin"
         }
+
+        register("kotlinLibrarySerialization") {
+            id = "yournus.kotlin.library.serialization"
+            implementationClass = "KotlinLibrarySerializationConventionPlugin"
+        }
     }
 }

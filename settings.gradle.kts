@@ -35,3 +35,5 @@ include(
     ":feature:main",
 
 )
+include(":core:router:router")
+include(":core:router:router-api")

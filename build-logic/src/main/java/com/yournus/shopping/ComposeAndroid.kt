@@ -34,3 +34,11 @@ internal fun Project.configureComposeAndroid() {
         includeSourceInformation.set(true) // 컴포즈 컴파일 시 추가 정보를 디버깅에 표시
     }
 }
+
+fun Project.configureComposeFeature() {
+    androidExtension.apply {
+        with(plugins) {
+            apply("org.jetbrains.kotlin.plugin.compose")
+        }
+    }
+}

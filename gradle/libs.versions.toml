@@ -28,6 +28,7 @@ ui-test-junit4 = "1.7.7"
 inject = "1"
 
 kotlinxImmutable = "0.3.8"
+jetbrainsKotlinJvm = "2.1.0"
 
 [libraries]
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
@@ -77,3 +78,14 @@ compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "
 android-test = { id = "com.android.test", version.ref = "androidGradlePlugin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+
+yournus-android-application = { id = "yournus.android.application", version = "unspecified" }
+
+yournus-android-library = { id = "yournus.android.library", version = "unspecified" }
+yournus-android-feature = { id = "yournus.android.feature", version = "unspecified" }
+yournus-android-compose = { id = "yournus.android.compose", version = "unspecified" }
+yournus-android-hilt = { id = "yournus.android.hilt", version = "unspecified" }
+
+yournus-kotlin-library = { id = "yournus.kotlin.library", version = "unspecified" }
+yournus-kotlin-library-serialization = { id = "yournus.kotlin.library.serialization", version = "unspecified" }
